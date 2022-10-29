@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NineHundred941"
+    android:background="@drawable/bg">
+
+    <!-- <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3650990573229785/3252665011">
+    </com.google.android.gms.ads.AdView>
+    -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/nine_hundred941"
+        />
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Next"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="300dp" />
+
+    <Button
+        android:id="@+id/Prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Prev"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="300dp" />
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Home"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="300dp" />
+
+</RelativeLayout>

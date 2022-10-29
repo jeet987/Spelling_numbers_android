@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".HomeActivity">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3650990573229785/3252665011"></com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+
+
+        android:layout_marginTop="10dp"
+
+        android:text="    1 to 1000 Spellings"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Onebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_corner"
+        android:text="1 to 100 Spellings"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/OneHundreOnedbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="130dp"
+        android:background="@drawable/rounded_corner"
+        android:text="101 to 200 Spellings"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TwoHundreOnedbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="190dp"
+        android:background="@drawable/rounded_corner"
+        android:text="201 to 300 Spellings"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ThreeHundreOnebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="250dp"
+        android:background="@drawable/rounded_corner"
+        android:text="301 to 400 Spellings"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/FourHundredonebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="310dp"
+        android:background="@drawable/rounded_corner"
+        android:text="401 to 500 Spellings"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/FivHundredonebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="370dp"
+        android:background="@drawable/rounded_corner"
+        android:text="501 to 600 Spellings"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/SixHundredonebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="430dp"
+        android:background="@drawable/rounded_corner"
+        android:text="601 to 700 Spellings"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/SevenHundredonebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="490dp"
+        android:background="@drawable/rounded_corner"
+        android:text="701 to 800 Spellings"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/EightHundredonebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="550dp"
+        android:background="@drawable/rounded_corner"
+        android:text="801 to 900 Spellings"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/NineHundredonebtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="610dp"
+        android:background="@drawable/rounded_corner"
+        android:text="901 to 1000 Spellings"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ShareButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="60dp"
+
+        android:background="@drawable/rounded_corner"
+        android:text="$"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
